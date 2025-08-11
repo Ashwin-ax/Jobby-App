@@ -1,0 +1,14 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  color:#ffffff;
+  height: 100vh;
+}
+
+.not-found {
+  height: 300px;
+  margin-bottom: 20px;
+}

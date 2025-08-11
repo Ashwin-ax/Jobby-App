@@ -1,0 +1,89 @@
+@media (min-width: 1024px) {
+  .mobile-navbar {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #272727;
+    color: #ffffff;
+    padding: 10px;
+    height: 60px;
+  }
+
+  .nav-website-logo {
+    height: 40px;
+    margin-left: 10px;
+  }
+
+  .header-nav-section-container {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  .header-nav-section-container a {
+    text-decoration: none;
+  }
+
+  .nav-section-item {
+    margin-right: 30px;
+    color: #ffffff;
+    font-size: 18px;
+  }
+
+  .logout-btn {
+    height: 35px;
+    width: 100px;
+    background-color: #4f46e5;
+    border: 0;
+    color: #ffffff;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .navbar {
+    display: none;
+  }
+
+  .mobile-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #272727;
+    color: #ffffff;
+    padding: 10px;
+    height: 60px;
+  }
+
+  .menu-button {
+    background-color: transparent;
+    border: 0;
+    color: #ffffff;
+  }
+
+  .mobile-nav-website-logo {
+    height: 35px;
+    margin-left: 10px;
+  }
+
+  .hamberger-menu {
+    font-size: 30px;
+  }
+
+  .mobile-nav-right {
+    display: flex;
+    align-items: center;
+  }
+
+  .redirect-elements {
+    color: #ffffff;
+    font-size: 18px;
+    margin-right: 18px;
+    margin-bottom: 5px;
+  }
+}

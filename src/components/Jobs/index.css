@@ -1,0 +1,166 @@
+.main-jobs-page-container {
+  display: flex;
+  background-color: #000000;
+  font-family: roboto;
+}
+
+.profile-and-filter-container {
+  padding: 20px;
+  height: 100vh;
+  width: 25%;
+}
+
+.jobs-list-container {
+  height: 100vh;
+  width: 100%;
+  padding: 20px;
+  overflow: auto;
+}
+
+.profile-card-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  width: 330px;
+  padding: 20px;
+  height: 240px;
+  margin-bottom: 20px;
+}
+
+.profile-img {
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.profile-name {
+  color: #4f46e5;
+  margin-bottom: 20px;
+}
+
+.profile-bio {
+  color: #2c364c;
+}
+
+.profile-and-filter-partition-line {
+  border: #7e858e 1px solid;
+}
+
+.filter-heading {
+  font-size: 17px;
+  margin-top: 30px;
+}
+
+.filter-container {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.filter-main-list-container {
+  list-style-type: none;
+}
+
+.filter-list-container {
+  display: flex;
+  align-items: center;
+  margin-top: 14px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+
+.search-input {
+  width: 100%;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid #7e858e;
+  padding-left: 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  color: #ffffff;
+}
+
+.search-icon-button {
+  height: 40px;
+  width: 60px;
+  background-color: #272727;
+  border: 1px solid #7e858e;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.search-icon {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.filter-input {
+  margin-right: 8px;
+}
+
+.loader {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #ffffff;
+}
+
+.failure-heading {
+  margin-top: 30px;
+}
+
+.failure-description {
+  margin-top: 8px;
+}
+
+.retry-btn-container {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.retry-btn {
+  height: 35px;
+  width: 80px;
+  background-color: #4f46e5;
+  border: 0;
+  color: #ffffff;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.profile-loader {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-jobs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #ffffff;
+}
+
+.no-jobs{
+  height: 260px;
+}

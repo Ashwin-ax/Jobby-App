@@ -1,0 +1,31 @@
+.simi-job-container {
+  color: #ffffff;
+  background-color: #272727;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.simi-jobs-company-name {
+  font-size: 22px;
+}
+
+.simi-lobs-description-heading {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.simi-jobs-description {
+  font-size: 18px;
+}
+
+.simi-jobs-rating {
+  font-size: 24px;
+}
+
+.simi-location-type-container {
+  display: flex;
+  margin-top:10px;
+  margin-bottom:10px;
+}

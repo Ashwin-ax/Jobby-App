@@ -1,0 +1,67 @@
+.job-details-container {
+  background-color: #000000;
+  padding: 30px;
+  overflow: auto;
+}
+
+.job-details-card {
+  color: #ffffff;
+  background-color: #272727;
+  margin-top: 18px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.job-details-description {
+  font-size: 23px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.skills-container {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.skill-container {
+  display: flex;
+  align-items: center;
+}
+
+.skill {
+  height: 60px;
+  margin-right: 20px;
+}
+
+.life-at-company-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.simi-jobs-container {
+  display: flex;
+  list-style: none;
+}
+
+.main-visit-description-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.visit-container {
+  display: flex;
+  align-items: center;
+  color: #6366f1;
+}
+
+.visit {
+  margin-right: 5px;
+}
+
+.visit-link {
+  font-size: 18px;
+}
