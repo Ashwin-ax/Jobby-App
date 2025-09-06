@@ -1,6 +1,12 @@
 # Jobby App  
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-blue)](https://ashwinjobbyapp.ccbp.tech/)  
+👉 Test Credentials:
+
+* Username: `rahul`
+* Password: `rahul@2021`
+
+---
 🔗 [GitHub Repository](https://github.com/Ashwin-ax/Jobby-App)  
 
 Jobby App is a modern job search platform built with **React.js**, designed to give users a seamless experience while searching and exploring job opportunities.  
